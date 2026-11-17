@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mold Remediation Guide for Homeowners: Identify, Test, Remove and Prevent</title>
+<meta name="description" content="A practical homeowner's guide to mold remediation, covering black mold identification, spore trap air testing, IICRC S520 cleanup standards, cost factors and prevention tips for US homes.">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0d2b33;
+  --teal:#13767a;
+  --teal-dark:#0c5559;
+  --mist:#edf5f4;
+  --paper:#ffffff;
+  --amber:#e2a13a;
+  --rust:#b5532f;
+  --line:#d5e3e1;
+  --text:#27414a;
+  --muted:#5b747c;
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --sans:'Public Sans',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:var(--sans);color:var(--text);background:var(--paper);line-height:1.7;font-size:17px;width:100%;overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+a{color:var(--teal-dark);text-decoration-thickness:2px;text-underline-offset:3px}
+a:hover{color:var(--rust)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:3px}
+
+.wrap{width:100%;max-width:1360px;margin:0 auto;padding:0 clamp(20px,4vw,56px)}
+section{width:100%;padding:clamp(56px,8vw,104px) 0}
+.alt{background:var(--mist)}
+.dark{background:var(--ink);color:#d4e4e6}
+.dark h2,.dark h3{color:#fff}
+
+h1,h2,h3{font-family:var(--serif);color:var(--ink);line-height:1.15;font-weight:700;letter-spacing:-.01em}
+h1{font-size:clamp(2.3rem,5vw,4rem)}
+h2{font-size:clamp(1.8rem,3.4vw,2.7rem);margin-bottom:18px}
+h3{font-size:1.35rem;margin-bottom:10px}
+p{margin-bottom:16px}
+.lead{font-size:1.2rem;color:var(--muted);max-width:62ch}
+.intro{max-width:70ch;margin-bottom:44px}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);width:100%}
+.bar{display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px}
+.brand{font-family:var(--serif);font-weight:700;font-size:1.2rem;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:10px}
+nav{display:flex;gap:26px;flex-wrap:wrap}
+nav a{font-size:.95rem;font-weight:500;color:var(--text);text-decoration:none}
+nav a:hover{color:var(--teal)}
+
+/* hero */
+.hero{background:linear-gradient(180deg,var(--mist) 0%,#fff 100%);padding-top:clamp(48px,7vw,96px)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,80px);align-items:center}
+.hero h1{margin-bottom:22px}
+.hero-note{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.pill{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:.92rem;font-weight:500;color:var(--ink)}
+.btn{display:inline-block;background:var(--teal);color:#fff;padding:14px 28px;border-radius:6px;font-weight:600;text-decoration:none;margin-top:8px}
+.btn:hover{background:var(--teal-dark);color:#fff}
+.figure{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.figure figcaption{font-size:.85rem;color:var(--muted);margin-top:10px;text-align:center}
+
+/* layout helpers */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,80px);align-items:center}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:26px}
+.card svg{margin-bottom:18px;border-radius:8px;background:var(--mist);width:100%;height:auto}
+.card p{margin-bottom:0;font-size:.98rem}
+
+ul.check{list-style:none}
+ul.check li{padding-left:34px;position:relative;margin-bottom:12px}
+ul.check li::before{content:"";position:absolute;left:0;top:7px;width:18px;height:18px;border-radius:50%;background:var(--teal) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5 10.5l3.2 3.2L15 7' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat}
+.dark ul.check li::before{background-color:var(--amber)}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s;list-style:none}
+.steps li{counter-increment:s;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:24px}
+.steps li::before{content:counter(s);display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--amber);color:var(--ink);font-weight:700;margin-bottom:14px}
+.steps h3{font-size:1.1rem;margin-bottom:6px}
+.steps p{font-size:.93rem;margin:0;color:#b9d0d3}
+
+.callout{background:#fff;border-left:5px solid var(--amber);padding:22px 26px;border-radius:0 10px 10px 0;margin-top:24px}
+.callout p{margin:0}
+
+/* faq */
+.faq{max-width:900px}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;font-family:var(--serif);font-weight:700;font-size:1.2rem;color:var(--ink);list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.6rem;line-height:1;color:var(--teal)}
+details[open] summary::after{content:"\2212"}
+details p{margin:14px 0 0}
+
+footer{background:#081c22;color:#9fb8bc;padding:40px 0;font-size:.92rem;width:100%}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+
+@media (max-width:1000px){
+  .hero-grid,.split{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  nav{display:none}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .steps{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Mold Remediation Guide, back to top">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 15 16 4l12 11v13H4z" fill="#13767a"/><circle cx="12" cy="20" r="3" fill="#fff"/><circle cx="19" cy="17" r="2" fill="#fff"/><circle cx="20" cy="23" r="2.4" fill="#fff"/></svg>
+      Mold Remediation Guide
+    </a>
+    <nav aria-label="Page sections">
+      <a href="#where">Where mold hides</a>
+      <a href="#bleach">Bleach myth</a>
+      <a href="#process">Process</a>
+      <a href="#cost">Cost</a>
+      <a href="#hire">Hiring</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Find the mold. Fix the moisture. Prove the air is clean.</h1>
+      <p class="lead">Mold is rarely just a surface stain. This guide explains where it hides, why bleach fails, how professional remediation works and what to check before you hire anyone.</p>
+      <div class="hero-note">
+        <span class="pill">Identification</span>
+        <span class="pill">Air testing</span>
+        <span class="pill">IICRC S520 cleanup</span>
+        <span class="pill">Prevention</span>
+      </div>
+      <p style="margin-top:26px"><a class="btn" href="#where">Start with the basics</a></p>
+    </div>
+    <figure class="figure">
+      <svg viewBox="0 0 600 440" role="img" aria-labelledby="heroT heroD">
+        <title id="heroT">Cross-section of a house showing common mold locations</title>
+        <desc id="heroD">A house with an attic, living floor and basement. Highlighted areas mark the attic roof sheathing, a wall cavity, an HVAC duct and the basement rim joist.</desc>
+        <rect width="600" height="440" fill="#edf5f4"/>
+        <rect x="0" y="372" width="600" height="68" fill="#cfdedb"/>
+        <polygon points="80,200 300,70 520,200" fill="#0d2b33"/>
+        <polygon points="120,196 300,92 480,196" fill="#ffffff"/>
+        <rect x="120" y="196" width="360" height="112" fill="#fff" stroke="#0d2b33" stroke-width="4"/>
+        <rect x="120" y="308" width="360" height="96" fill="#d9e8e6" stroke="#0d2b33" stroke-width="4"/>
+        <rect x="150" y="226" width="56" height="52" fill="#cfe5ee" stroke="#0d2b33" stroke-width="3"/>
+        <rect x="394" y="226" width="56" height="52" fill="#cfe5ee" stroke="#0d2b33" stroke-width="3"/>
+        <rect x="262" y="236" width="76" height="72" fill="#f4e7c9" stroke="#0d2b33" stroke-width="3"/>
+        <line x1="300" y1="200" x2="300" y2="196" stroke="#0d2b33"/>
+        <!-- duct -->
+        <rect x="215" y="206" width="170" height="14" rx="3" fill="#9db6b8"/>
+        <!-- hotspots -->
+        <circle cx="300" cy="148" r="22" fill="#b5532f" opacity=".25"/><circle cx="300" cy="148" r="11" fill="#b5532f"/>
+        <circle cx="236" cy="262" r="22" fill="#b5532f" opacity=".25"/><circle cx="236" cy="262" r="11" fill="#b5532f"/>
+        <circle cx="360" cy="213" r="18" fill="#e2a13a" opacity=".3"/><circle cx="360" cy="213" r="9" fill="#e2a13a"/>
+        <circle cx="420" cy="360" r="22" fill="#b5532f" opacity=".25"/><circle cx="420" cy="360" r="11" fill="#b5532f"/>
+        <!-- labels -->
+        <g font-family="Public Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#0d2b33">
+          <rect x="330" y="104" width="150" height="26" rx="13" fill="#fff" stroke="#d5e3e1"/><text x="405" y="122" text-anchor="middle">Attic sheathing</text>
+          <rect x="30" y="296" width="130" height="26" rx="13" fill="#fff" stroke="#d5e3e1"/><text x="95" y="314" text-anchor="middle">Wall cavity</text>
+          <rect x="400" y="168" width="130" height="26" rx="13" fill="#fff" stroke="#d5e3e1"/><text x="465" y="186" text-anchor="middle">HVAC duct</text>
+          <rect x="440" y="396" width="150" height="26" rx="13" fill="#fff" stroke="#d5e3e1"/><text x="515" y="414" text-anchor="middle">Basement joist</text>
+        </g>
+      </svg>
+      <figcaption>Illustration: the four places mold most often grows out of sight.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- WHERE -->
+<section id="where">
+  <div class="wrap">
+    <div class="intro">
+      <h2>Why mold grows, and where it hides</h2>
+      <p>Mold needs only two things: something organic to feed on and steady moisture. Drywall paper, framing lumber, insulation and ceiling tiles supply the food. The moisture comes from leaks, condensation and poor airflow, and it is usually found somewhere you do not look every day. A large share of indoor mold sits behind walls, under floors or inside ductwork, which is why families sometimes notice symptoms long before they see a stain.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <svg viewBox="0 0 320 180" role="img" aria-label="Attic roof framing with moisture droplets">
+          <rect width="320" height="180" fill="#edf5f4"/>
+          <polygon points="20,160 160,30 300,160" fill="none" stroke="#0d2b33" stroke-width="5" stroke-linejoin="round"/>
+          <line x1="160" y1="30" x2="160" y2="160" stroke="#0d2b33" stroke-width="3"/>
+          <line x1="90" y1="95" x2="230" y2="95" stroke="#0d2b33" stroke-width="3"/>
+          <circle cx="128" cy="66" r="9" fill="#b5532f" opacity=".85"/><circle cx="142" cy="80" r="6" fill="#b5532f" opacity=".85"/><circle cx="196" cy="70" r="7" fill="#b5532f" opacity=".85"/>
+          <path d="M100 120c6 9 10 13 10 18a10 10 0 0 1-20 0c0-5 4-9 10-18z" fill="#13767a"/>
+          <path d="M214 126c5 8 8 11 8 15a8 8 0 0 1-16 0c0-4 3-7 8-15z" fill="#13767a"/>
+        </svg>
+        <h3>Attics</h3>
+        <p>Bathroom fans that vent into the attic, blocked soffits and roof leaks let warm, damp air condense on cold sheathing. Growth often spreads across the underside of the roof before anyone looks up there.</p>
+      </article>
+      <article class="card">
+        <svg viewBox="0 0 320 180" role="img" aria-label="Basement wall with rising water level">
+          <rect width="320" height="180" fill="#edf5f4"/>
+          <rect x="40" y="24" width="240" height="132" fill="#fff" stroke="#0d2b33" stroke-width="5"/>
+          <path d="M45 128c20-10 40 10 60 0s40 10 60 0 40 10 60 0 40 10 50 4v24H45z" fill="#13767a" opacity=".85"/>
+          <circle cx="80" cy="104" r="8" fill="#b5532f" opacity=".85"/><circle cx="96" cy="112" r="5" fill="#b5532f" opacity=".85"/><circle cx="220" cy="100" r="9" fill="#b5532f" opacity=".85"/>
+          <rect x="40" y="24" width="240" height="14" fill="#0d2b33"/>
+        </svg>
+        <h3>Basements and crawl spaces</h3>
+        <p>Groundwater seepage, ground vapor and cool concrete walls keep humidity high. Rim joists, subfloors and stored cardboard are common starting points.</p>
+      </article>
+      <article class="card">
+        <svg viewBox="0 0 320 180" role="img" aria-label="HVAC duct and coil with growth spots">
+          <rect width="320" height="180" fill="#edf5f4"/>
+          <rect x="20" y="64" width="280" height="52" rx="6" fill="#9db6b8" stroke="#0d2b33" stroke-width="4"/>
+          <circle cx="90" cy="90" r="22" fill="#fff" stroke="#0d2b33" stroke-width="4"/>
+          <path d="M90 90l0-16M90 90l14 8M90 90l-14 8" stroke="#0d2b33" stroke-width="4" stroke-linecap="round"/>
+          <path d="M170 70v40M190 70v40M210 70v40M230 70v40" stroke="#0d2b33" stroke-width="4"/>
+          <circle cx="250" cy="90" r="6" fill="#b5532f"/><circle cx="262" cy="100" r="4" fill="#b5532f"/><circle cx="150" cy="104" r="5" fill="#b5532f"/>
+          <path d="M160 140c5 8 8 11 8 15a8 8 0 0 1-16 0c0-4 3-7 8-15z" fill="#13767a"/>
+        </svg>
+        <h3>HVAC systems</h3>
+        <p>Condensate drain pans, evaporator coils and duct liners stay damp whenever the system runs. Once spores are inside, the fan can carry them to every room.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BLEACH -->
+<section id="bleach" class="alt">
+  <div class="wrap split">
+    <div>
+      <h2>Why bleach is the wrong tool for black mold</h2>
+      <p>The dark, greenish-black fungus most people call black mold, <em>Stachybotrys chartarum</em>, tends to grow on wet cellulose such as drywall paper and wood after a week or more of dampness. Colour alone cannot identify a mold, though. Other species also look dark, and only laboratory analysis confirms what you have.</p>
+      <p>Bleach works on glass and tile. It does not soak into porous materials. Only the water in the mixture is absorbed, which can leave the mold's root-like threads alive and feeding inside the material. Hard scrubbing can also knock spores loose and spread them into other rooms.</p>
+      <div class="callout"><p><strong>Rule of thumb:</strong> small patches on hard, non-porous surfaces can usually be cleaned by the homeowner. Growth on drywall, insulation or framing, anything near 10 square feet or larger, or any mold in ductwork calls for a professional.</p></div>
+    </div>
+    <figure class="figure">
+      <svg viewBox="0 0 520 380" role="img" aria-labelledby="blT">
+        <title id="blT">Diagram showing surface mold on drywall with roots below the surface that bleach does not reach</title>
+        <rect width="520" height="380" fill="#fff"/>
+        <rect x="60" y="150" width="400" height="150" fill="#e9dfc8" stroke="#0d2b33" stroke-width="4"/>
+        <g fill="#2b3b3f">
+          <ellipse cx="150" cy="146" rx="34" ry="14"/><ellipse cx="240" cy="144" rx="44" ry="16"/><ellipse cx="350" cy="146" rx="38" ry="14"/>
+        </g>
+        <g stroke="#2b3b3f" stroke-width="3" fill="none" stroke-linecap="round">
+          <path d="M150 158c-6 30 10 50 0 80M240 158c10 30-12 56 2 96M240 158c-14 24-30 40-26 70M350 158c8 28-8 48 4 84M350 158c16 20 24 44 14 64"/>
+        </g>
+        <!-- bleach drops -->
+        <g fill="#13767a">
+          <path d="M120 60c8 12 12 17 12 23a12 12 0 0 1-24 0c0-6 4-11 12-23z"/>
+          <path d="M240 40c8 12 12 17 12 23a12 12 0 0 1-24 0c0-6 4-11 12-23z"/>
+          <path d="M360 62c8 12 12 17 12 23a12 12 0 0 1-24 0c0-6 4-11 12-23z"/>
+        </g>
+        <g stroke="#13767a" stroke-width="3" stroke-dasharray="6 6"><line x1="120" y1="96" x2="120" y2="130"/><line x1="240" y1="78" x2="240" y2="126"/><line x1="360" y1="98" x2="360" y2="130"/></g>
+        <g font-family="Public Sans, Arial, sans-serif" font-size="15" font-weight="600" fill="#0d2b33">
+          <text x="60" y="28">Bleach stays on the surface</text>
+          <text x="60" y="330">Roots remain alive inside the material</text>
+          <text x="60" y="352" font-weight="400" fill="#5b747c">Porous drywall, wood and insulation absorb water, not chlorine</text>
+        </g>
+      </svg>
+      <figcaption>Illustration: why surface cleaning does not remove mold from porous materials.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- HEALTH -->
+<section>
+  <div class="wrap split">
+    <figure class="figure">
+      <svg viewBox="0 0 520 340" role="img" aria-label="Indoor air with spores being filtered by an air scrubber">
+        <rect width="520" height="340" fill="#edf5f4"/>
+        <rect x="40" y="40" width="440" height="250" rx="10" fill="#fff" stroke="#0d2b33" stroke-width="4"/>
+        <g fill="#b5532f" opacity=".8">
+          <circle cx="90" cy="100" r="5"/><circle cx="130" cy="150" r="4"/><circle cx="110" cy="210" r="6"/><circle cx="170" cy="90" r="4"/><circle cx="200" cy="190" r="5"/><circle cx="150" cy="240" r="4"/><circle cx="230" cy="120" r="6"/><circle cx="250" cy="230" r="4"/>
+        </g>
+        <rect x="330" y="120" width="110" height="120" rx="10" fill="#13767a" stroke="#0d2b33" stroke-width="4"/>
+        <g stroke="#fff" stroke-width="4" stroke-linecap="round"><line x1="352" y1="146" x2="418" y2="146"/><line x1="352" y1="170" x2="418" y2="170"/><line x1="352" y1="194" x2="418" y2="194"/><line x1="352" y1="218" x2="418" y2="218"/></g>
+        <g stroke="#13767a" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="3 9"><path d="M110 180C200 160 260 170 322 180"/><path d="M130 120C210 130 270 150 322 160"/><path d="M150 250C220 230 280 210 322 205"/></g>
+        <g font-family="Public Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#0d2b33"><text x="64" y="70">Airborne spores</text><text x="338" y="110">HEPA scrubber</text></g>
+      </svg>
+      <figcaption>Illustration: HEPA air scrubbers capture airborne particles during cleanup.</figcaption>
+    </figure>
+    <div>
+      <h2>Signs that mold may be affecting your home</h2>
+      <p>Reactions vary from person to person. Children, older adults and people with asthma or weakened immune systems are usually more sensitive. Watch for these patterns:</p>
+      <ul class="check">
+        <li>A musty, earthy smell that lingers in a closed room</li>
+        <li>Water stains that return after cleaning or repainting</li>
+        <li>Peeling paint, bubbling wallpaper or warped drywall</li>
+        <li>Persistent coughing, sinus congestion or throat irritation</li>
+        <li>Asthma or allergy symptoms that ease when you leave the house</li>
+        <li>Condensation that never seems to dry on windows and pipes</li>
+      </ul>
+      <p>If symptoms track with time spent at home and you cannot find a visible cause, hidden moisture is worth investigating.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="dark">
+  <div class="wrap">
+    <div class="intro">
+      <h2>How professional mold remediation works</h2>
+      <p>Qualified contractors follow ANSI/IICRC S520, the industry standard for professional mold remediation. The aim is to return an affected space to normal indoor conditions without spreading contamination, and to verify the result. A well-run project follows this sequence.</p>
+    </div>
+    <ol class="steps">
+      <li><h3>Inspect</h3><p>Visual review plus moisture meters and thermal imaging to find the water source feeding the growth.</p></li>
+      <li><h3>Test</h3><p>Air and surface samples go to an accredited lab to identify mold types and spore levels.</p></li>
+      <li><h3>Contain</h3><p>Heavy polyethylene barriers seal the work zone. Negative air pressure keeps spores from leaving it.</p></li>
+      <li><h3>Filter</h3><p>HEPA air scrubbers run throughout the work to capture airborne particles.</p></li>
+      <li><h3>Remove</h3><p>Contaminated porous materials are cut out and bagged. Salvageable surfaces are cleaned mechanically.</p></li>
+      <li><h3>Treat</h3><p>Antimicrobial treatment and protective coatings reduce the chance of regrowth.</p></li>
+      <li><h3>Dry and repair</h3><p>The moisture source is fixed and materials are dried before anything is rebuilt.</p></li>
+      <li><h3>Verify</h3><p>Independent post-remediation testing confirms the air is back to normal before containment comes down.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- VERIFICATION + COST -->
+<section id="cost">
+  <div class="wrap split">
+    <div>
+      <h2>What affects the cost of mold removal</h2>
+      <p>There is no single price, because every project is different. Estimates usually depend on the factors below, so ask for a written scope that explains each one.</p>
+      <ul class="check">
+        <li>Size of the affected area and how far the moisture has spread</li>
+        <li>Material type, since drywall and insulation are replaced while framing is often cleaned</li>
+        <li>Accessibility: attics, crawl spaces and ductwork take longer than open walls</li>
+        <li>Level of containment and number of air scrubbers required</li>
+        <li>Laboratory testing before and after the work</li>
+        <li>Repairs needed to fix the leak and rebuild finished surfaces</li>
+      </ul>
+      <p>Insurance may help when mold follows a sudden, covered water event such as a burst pipe. Policies differ, so check yours and keep photos and lab reports.</p>
+    </div>
+    <figure class="figure">
+      <svg viewBox="0 0 520 360" role="img" aria-labelledby="chT">
+        <title id="chT">Illustrative chart comparing indoor spore counts before remediation, after remediation and the outdoor baseline</title>
+        <rect width="520" height="360" fill="#fff"/>
+        <g stroke="#d5e3e1" stroke-width="2"><line x1="60" y1="60" x2="480" y2="60"/><line x1="60" y1="140" x2="480" y2="140"/><line x1="60" y1="220" x2="480" y2="220"/></g>
+        <line x1="60" y1="300" x2="480" y2="300" stroke="#0d2b33" stroke-width="3"/>
+        <rect x="110" y="70" width="90" height="230" rx="4" fill="#b5532f"/>
+        <rect x="235" y="268" width="90" height="32" rx="4" fill="#13767a"/>
+        <rect x="360" y="252" width="90" height="48" rx="4" fill="#9db6b8"/>
+        <g font-family="Public Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#0d2b33" text-anchor="middle">
+          <text x="155" y="326">Before</text><text x="280" y="326">After</text><text x="405" y="326">Outdoor baseline</text>
+          <text x="155" y="60">High</text><text x="280" y="258">Low</text><text x="405" y="242">Normal</text>
+        </g>
+      </svg>
+      <figcaption>Illustration only: clearance testing compares indoor air with outdoor baseline samples.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- HIRING -->
+<section id="hire" class="alt">
+  <div class="wrap split">
+    <div>
+      <h2>How to choose a mold remediation company</h2>
+      <p>Not everyone who advertises mold cleaning follows the same standard. Before you sign a contract, compare companies on the points below and get everything in writing.</p>
+      <ul class="check">
+        <li>Technicians hold recognized certifications and work to ANSI/IICRC S520</li>
+        <li>Containment, negative air and HEPA filtration are part of the written plan</li>
+        <li>An independent accredited lab handles testing, and you receive the report</li>
+        <li>The scope of work, warranty terms and insurance documentation are clear</li>
+        <li>The company explains how it will find and fix the moisture source</li>
+      </ul>
+      <p>Providers such as <a href="https://nationalmoldpros.com/">nationalmoldpros.com</a> combine nationwide coverage with certified remediation, accredited lab testing and 24/7 response, so inspection, removal and clearance testing can be handled through one process instead of several separate vendors.</p>
+    </div>
+    <figure class="figure">
+      <svg viewBox="0 0 520 380" role="img" aria-label="Checklist document with a certification badge">
+        <rect width="520" height="380" fill="#fff"/>
+        <rect x="90" y="30" width="270" height="320" rx="12" fill="#edf5f4" stroke="#0d2b33" stroke-width="4"/>
+        <g fill="#13767a"><circle cx="130" cy="96" r="14"/><circle cx="130" cy="156" r="14"/><circle cx="130" cy="216" r="14"/><circle cx="130" cy="276" r="14"/></g>
+        <g stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M123 96l5 5 9-10"/><path d="M123 156l5 5 9-10"/><path d="M123 216l5 5 9-10"/><path d="M123 276l5 5 9-10"/></g>
+        <g stroke="#9db6b8" stroke-width="10" stroke-linecap="round"><line x1="165" y1="96" x2="330" y2="96"/><line x1="165" y1="156" x2="300" y2="156"/><line x1="165" y1="216" x2="320" y2="216"/><line x1="165" y1="276" x2="280" y2="276"/></g>
+        <circle cx="400" cy="270" r="62" fill="#e2a13a" stroke="#0d2b33" stroke-width="4"/>
+        <circle cx="400" cy="270" r="46" fill="none" stroke="#0d2b33" stroke-width="3" stroke-dasharray="4 5"/>
+        <path d="M376 270l17 17 32-34" fill="none" stroke="#0d2b33" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M368 320l-12 44 44-18 44 18-12-44" fill="#b5532f" stroke="#0d2b33" stroke-width="4" stroke-linejoin="round"/>
+      </svg>
+      <figcaption>Illustration: verify credentials, lab testing and written scope before you hire.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- PREVENTION -->
+<section>
+  <div class="wrap split">
+    <figure class="figure">
+      <svg viewBox="0 0 520 340" role="img" aria-label="Humidity gauge showing the ideal range of 30 to 50 percent">
+        <rect width="520" height="340" fill="#edf5f4"/>
+        <path d="M80 250a180 180 0 0 1 360 0" fill="none" stroke="#d5e3e1" stroke-width="36"/>
+        <path d="M80 250a180 180 0 0 1 72-144" fill="none" stroke="#9db6b8" stroke-width="36"/>
+        <path d="M152 106a180 180 0 0 1 216 0" fill="none" stroke="#13767a" stroke-width="36"/>
+        <path d="M368 106a180 180 0 0 1 72 144" fill="none" stroke="#b5532f" stroke-width="36"/>
+        <line x1="260" y1="250" x2="260" y2="110" stroke="#0d2b33" stroke-width="8" stroke-linecap="round"/>
+        <circle cx="260" cy="250" r="16" fill="#0d2b33"/>
+        <g font-family="Public Sans, Arial, sans-serif" font-size="16" font-weight="600" fill="#0d2b33" text-anchor="middle">
+          <text x="260" y="300">Keep indoor humidity between 30% and 50%</text>
+          <text x="100" y="290" font-size="13">Too dry</text><text x="420" y="290" font-size="13">Too damp</text>
+        </g>
+      </svg>
+      <figcaption>Illustration: the recommended indoor humidity range.</figcaption>
+    </figure>
+    <div>
+      <h2>Keep mold from coming back</h2>
+      <p>Remediation fixes today's problem. These habits keep tomorrow's from starting.</p>
+      <ul class="check">
+        <li>Fix leaks promptly and dry any wet material within 24 to 48 hours</li>
+        <li>Use a dehumidifier in damp basements and keep humidity at 30% to 50%</li>
+        <li>Run bathroom and kitchen exhaust fans, and vent them outdoors, never into the attic</li>
+        <li>Clean HVAC drain pans and change filters on schedule</li>
+        <li>Keep gutters clear and make sure soil slopes away from the foundation</li>
+        <li>Inspect attics, basements and crawl spaces at least twice a year</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="alt">
+  <div class="wrap">
+    <h2>Frequently asked questions</h2>
+    <div class="faq">
+      <details>
+        <summary>Can I stay in my home during remediation?</summary>
+        <p>Often yes, when the work area is properly sealed and kept under negative air pressure with HEPA filtration. Larger or more severe projects may need temporary relocation, so confirm the plan with your contractor, especially if someone in the home has respiratory problems.</p>
+      </details>
+      <details>
+        <summary>Is air testing really necessary?</summary>
+        <p>Testing identifies what you are dealing with and gives you a measurable result after cleanup. Post-remediation verification is the best proof that the job worked, and a written lab report is useful to insurers, buyers and lenders.</p>
+      </details>
+      <details>
+        <summary>Does homeowners insurance cover mold?</summary>
+        <p>Coverage depends on your policy and the cause. Mold that results from a sudden, accidental water event is more likely to be covered than mold from long-term neglect. Document everything and read your policy's fungi or microbial limits.</p>
+      </details>
+      <details>
+        <summary>How long does remediation take?</summary>
+        <p>Small, contained jobs can finish in a day or two. Larger projects take longer because of drying, material removal and verification testing. A written schedule should be part of any estimate.</p>
+      </details>
+      <details>
+        <summary>Will the mold come back?</summary>
+        <p>Not if the moisture problem is solved. Regrowth almost always means water is still getting in, so repairs, ventilation and humidity control matter as much as the cleanup itself.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Mold Remediation Guide for homeowners. General information only, not a substitute for an on-site inspection.</span>
+    <span><a href="#top" style="color:#d4e4e6">Back to top</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
